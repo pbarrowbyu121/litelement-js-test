@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>&lt;my-element> Demo</title>
+    <script type="module" src="../my-element.js"></script>
+    <script type="module" src="../list-element.js"></script>
+    <script type="module" src="../list-item.js"></script>
+    <script type="module" src="../add-name.js"></script>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+      p {
+        border: solid 1px blue;
+        padding: 8px;
+      }
+      body {
+			background-color: #eee;
+		  }
+      .container {
+			padding: 0 20px 30px;
+			width: 300px;
+			background: white;
+			border: 2px solid #eaeaea;
+			position: fixed;
+			top: 100px;
+			left: 100px;
+		}
+    .mdl-list {
+      display: block;
+      padding: 8px 0;
+      list-style: none;
+    }
+
+    </style>
+  </head>
+  <body>
+      <div class="container">
+
+        <list-element></list-element>
+        <!-- <my-element></my-element> -->
+        
+      </div>
+
+    
+  </body>
+</html>
